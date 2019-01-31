@@ -99,6 +99,13 @@ The table below identifies the services this tool supports and some example serv
 
   Note: if no hostname defined https://api.pushjet.io will be used
 
+* Pushed
+   pushed://appkey/appsecret/
+   pushed://appkey/appsecret/#ChannelAlias
+   pushed://appkey/appsecret/#ChannelAlias1/#ChannelAlias2/#ChannelAliasN
+   pushed://appkey/appsecret/@UserPushedID
+   pushed://appkey/appsecret/@UserPushedID1/@UserPushedID2/@UserPushedIDN
+
 * Pushover
 	pover://user@token
 	pover://user@token/DEVICE
